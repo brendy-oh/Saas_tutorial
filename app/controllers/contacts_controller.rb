@@ -7,7 +7,7 @@ class ContactsController < ApplicationController
     if @contact.save
        redirect_to new_contact_path, notice: "Message sent."
     else
-       redirect_to new_contact_path, notice: "Error occured."
+       redirect_to new_contact_path, notice: "An error occured. Please make sure you fill out all form fields."
     end
   end
   private

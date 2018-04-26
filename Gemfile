@@ -67,3 +67,6 @@ ruby '2.4.1'
 
 # Gem for javascript
 gem 'jquery-rails'
+
+# Gem to improve look of database
+gem 'hirb'

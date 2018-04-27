@@ -1,12 +1,9 @@
-class: ContactMailer < ActionMailer::Base
-    default to: 'brendan_ss@yahoo.ca'
-    
-    def contact_email(name, email, body)
-        @name = name
-        @email = email
-        @body = body
-        
-        mail(from: email, subject: 'Contact Form Message')
-        
-    end
+class ContactMailer < ActionMailer::Base
+  default to: 'instructors@upskillcourses.com'
+  def contact_email(name, email, body)
+    @name = name
+    @email = email
+    @body = body
+    mail(from: email, subject: 'DevMatch Contact Form Message')
+  end
 end

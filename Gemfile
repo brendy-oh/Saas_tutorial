@@ -70,3 +70,6 @@ gem 'jquery-rails'
 
 # Gem to improve look of database
 gem 'hirb'
+
+# Use Devise for user authentication
+gem 'devise'

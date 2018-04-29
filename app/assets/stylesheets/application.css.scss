@@ -67,3 +67,8 @@
  font-family: '0pen Sans', sans-serif;
  font-weight: 600;
 }
+
+/* Remove alert text indicating user was signed-out successfully */
+.alert-notice {
+  display: none;
+}

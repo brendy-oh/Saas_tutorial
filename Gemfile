@@ -73,3 +73,9 @@ gem 'hirb'
 
 # Use Devise for user authentication
 gem 'devise'
+
+# Use Stripe for accepting and processing payment
+gem 'stripe'
+
+# Use Figaro for ENV variables (hides Stripe API key from GitHub / Heroku)
+gem 'figaro'
